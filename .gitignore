@@ -1,0 +1,16 @@
+# Never publish launcher binaries or local user data.
+*.exe
+*.dll
+*.pdb
+*.lnk
+
+artifacts/
+private/
+reports/
+bin/
+obj/
+.vs/
+
+PCL/
+Setup.ini
+Log*.txt
